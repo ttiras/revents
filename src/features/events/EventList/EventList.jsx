@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import EventListItem from '../EventList/EventListItem'
+import EventListItem from './EventListItem'
 
 class EventList extends Component {
     render() {
