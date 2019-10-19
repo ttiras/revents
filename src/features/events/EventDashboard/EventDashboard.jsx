@@ -8,8 +8,9 @@ import {createEvent, updateEvent, deleteEvent} from '../eventActions'
 
 
 const mapState = (state) => ({
-  state: state.events
+  events: state.events
 })
+
 
 const actions = {
   createEvent,
@@ -20,7 +21,7 @@ const actions = {
 class EventDashboard extends Component {
     
     state = {
-        isOpen: false,
+        isOpen: true,
         selectedEvent: null
     }
 
