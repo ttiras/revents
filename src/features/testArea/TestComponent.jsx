@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import {incrementCounter, decrementCounter} from './TestActions'
 import { Button } from 'semantic-ui-react'
 import TestPlaceInput from '../TestPlaceInput'
-import SimpleMap from './SingleMap'
+import SimpleMap from './SimpleMap'
 import {
     geocodeByAddress,
     getLatLng,
